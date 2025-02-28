@@ -1,0 +1,10 @@
+﻿namespace AllatKert_Mohamed_Melhem
+{
+	internal class Program
+	{
+		static void Main(string[] args)
+		{
+			Console.WriteLine("Hello, World!");
+		}
+	}
+}
