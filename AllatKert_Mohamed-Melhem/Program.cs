@@ -104,7 +104,7 @@
         Console.BackgroundColor = ConsoleColor.Black;
 		Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine();
-        for (int i = 0; i < 20; i++)
+        for (int i = 0; i < 10; i++)
 		{
 			Console.BackgroundColor = ConsoleColor.White;
             Console.Write(" ");
@@ -112,7 +112,7 @@
             Console.Write(" ");
         }
         Console.WriteLine();
-        for (int i = 0; i < 20; i++)
+        for (int i = 0; i < 10; i++)
 		{
 
 			Console.BackgroundColor = ConsoleColor.Black;
@@ -121,7 +121,7 @@
 			Console.Write(" ");
 		}
         Console.WriteLine();
-        for (int i = 0; i < 20; i++)
+        for (int i = 0; i < 10; i++)
 		{
 			Console.BackgroundColor = ConsoleColor.White;
 			Console.Write(" ");
@@ -129,7 +129,7 @@
 			Console.Write(" ");
 		}
         Console.WriteLine();
-        for (int i = 0; i < 20; i++)
+        for (int i = 0; i < 10; i++)
 		{
 		
 			Console.BackgroundColor = ConsoleColor.Black;
@@ -140,5 +140,15 @@
         
         Console.WriteLine();
 		Console.BackgroundColor = ConsoleColor.Black;
-    }
+		Console.BackgroundColor = ConsoleColor.DarkRed;
+        Console.WriteLine("  ");
+		Console.WriteLine("  ");
+		Console.WriteLine("  ");
+		Console.WriteLine("  ");
+		Console.WriteLine("  ");
+		Console.WriteLine("  ");
+		Console.WriteLine("  ");
+		Console.WriteLine("  ");
+		Console.BackgroundColor = ConsoleColor.Black;
+	}
 }

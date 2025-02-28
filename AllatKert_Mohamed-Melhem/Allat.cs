@@ -4,7 +4,7 @@
 
 	public override void Jellemzo()
 	{
-		Console.WriteLine($"Vízállat: {Nev}, Szín: {Szín}, Életkor: {sebsseg} év.");
+		Console.WriteLine($"Vízállat: {Nev}, Szín: {Szín}, Sebesseg: {sebsseg} év.");
 	}
 }
 
@@ -14,7 +14,7 @@ public class SzarazfoldiHideg : Allat
 
 	public override void Jellemzo()
 	{
-		Console.WriteLine($"Szárazföldi hideg állat: {Nev}, Szín: {Szín}, Életkor: {sebsseg} év.");
+		Console.WriteLine($"Szárazföldi hideg állat: {Nev}, Szín: {Szín}, Sebesseg: {sebsseg} Km/h");
 	}
 }
 
@@ -24,7 +24,7 @@ public class SzarazFoldiMediterrán : Allat
 
 	public override void Jellemzo()
 	{
-		Console.WriteLine($"Szárazföldi mediterrán állat: {Nev}, Szín: {Szín}, Életkor: {sebsseg} év.");
+		Console.WriteLine($"Szárazföldi mediterrán állat: {Nev}, Szín: {Szín}, Sebesseg: {sebsseg}  Km/h.");
 	}
 }
 
@@ -34,7 +34,7 @@ public class MelegSzarazfoldi : Allat
 
 	public override void Jellemzo()
 	{
-		Console.WriteLine($"Meleg szárazföldi állat: {Nev}, Szín: {Szín}, Életkor: {sebsseg} év.");
+		Console.WriteLine($"Meleg szárazföldi állat: {Nev}, Szín: {Szín}, Sebesseg: {sebsseg}  Km/h.");
 	}
 }
 
@@ -44,6 +44,6 @@ public class TropusiSzarazfold : Allat
 
 	public override void Jellemzo()
 	{
-		Console.WriteLine($"Trópusi szárazföldi állat: {Nev}, Szín: {Szín}, Életkor: {sebsseg} év.");
+		Console.WriteLine($"Trópusi szárazföldi állat: {Nev}, Szín: {Szín}, Sebesseg: {sebsseg}  Km/h.");
 	}
 }
